@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700,800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,500,700");
+@import url("https://fonts.googleapis.com/css?family=Karla");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+.menu {
+  position: fixed;
+  margin: 50px 0 0 20px;
+  width: 200px; }
+
+@media only screen and (min-width: 992px) {
+  .menu {
+    position: fixed;
+    margin: 50px 0 0 80px;
+    width: 200px; } }
+
+.menu-li {
+  margin-top: 25px; }
+
+.menu-btn-white {
+  color: #FFFFFF; }
+
+.menu-btn-black {
+  color: #000000; }
+
+.menu-btn-white:hover {
+  color: white;
+  text-decoration: none; }
+
+.menu-btn-black:hover {
+  color: black;
+  text-decoration: none; }
+
+.menu-btn-white h2 {
+  font-size: 28px;
+  letter-spacing: 4px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.menu-btn-white:hover h2 {
+  letter-spacing: 6px; }
+
+.menu-btn-black h2 {
+  font-size: 28px;
+  letter-spacing: 4px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.menu-btn-black:hover h2 {
+  letter-spacing: 6px; }
+
+.card {
+  height: 300px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  border-radius: 0px;
+  border: none;
+  justify-content: center; }
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0; }
+
+.card-link:hover {
+  opacity: 0.1; }
+
+.card-container {
+  display: unset;
+  text-align: center;
+  justify-content: center; }
+
+[class*="col-"] {
+  padding: 6px; }
+
+.card .card-content {
+  visibility: hidden; }
+
+.card:hover .card-content {
+  visibility: visible; }
+
+.project-container {
+  text-align: center;
+  width: 100%;
+  margin: auto; }
+
+.head-projet-img {
+  height: 60vh;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center;
+  margin: auto; }
+
+.project-title {
+  margin: 30px; }
+
+.project-text {
+  display: flex; }
+
+.row-pad {
+  padding: 0px 8px; }
+
+.row-wd {
+  width: 90%;
+  margin: auto; }
+
+.projet-img-a {
+  height: 30vw;
+  width: 90%;
+  background-size: cover !important;
+  background-position: center;
+  margin: 30px auto; }
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center; }
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
+
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+  opacity: 0.6;
+  margin-bottom: 30px; }
+
+.banner-projets {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center; }
+
+h1 {
+  font-family: "Titillium Web";
+  font-size: 40px; }
+
+h2 {
+  font-family: "Titillium Web";
+  font-size: 24px; }
+
+h3 {
+  font-family: "Titillium Web";
+  font-size: 16px; }
+
+body {
+  font-family: "Open Sans"; }
+
+.content {
+  padding-left: 250px;
+  padding-right: 20px;
+  padding-top: 183px; }
+
+@media only screen and (min-width: 992px) {
+  .content {
+    padding-left: 350px;
+    padding-right: 80px;
+    padding-top: 183px; } }
