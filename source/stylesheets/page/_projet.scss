@@ -1,0 +1,39 @@
+.project-container{
+  text-align: center;
+  width: 100%;
+  margin:auto;
+}
+
+.head-projet-img{
+  height: 60vh;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center;
+  margin: auto;
+}
+
+.project-title {
+  margin: 30px;
+}
+
+.project-text{
+  display: flex
+}
+
+
+.row-pad{
+  padding: 0px 8px;
+}
+
+.row-wd {
+  width: 90%;
+  margin: auto;
+}
+
+.projet-img-a{
+  height: 30vw;
+  width: 90%;
+  background-size: cover !important;
+  background-position: center;
+  margin: 30px auto;
+}
