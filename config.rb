@@ -48,11 +48,11 @@ activate :directory_indexes
 #   activate :minify_javascript
 # end
 
-
 activate :deploy do |deploy|
-  deploy.method = :git
+  deploy.deploy_method = :git
   deploy.branch = 'master'
   deploy.build_before = true
+  deploy.remote = 'git@github.com:ALECOU/ALECOU.github.io.git'
   # Optional Settings
   # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
   # deploy.branch   = 'custom-branch' # default: gh-pages
