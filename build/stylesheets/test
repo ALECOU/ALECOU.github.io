@@ -50,15 +50,29 @@ h3 {
   font-size: 16px; }
 
 body {
-  font-family: "Open Sans"; }
+  font-family: "Open sans"; }
+
+@font-face {
+  font-family: 'Calibri Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Calibri Light"), url("/css/fonts/calibril.woff") format("woff"); }
 
 .content {
-  padding-left: 250px;
+  padding-left: 350px;
   padding-right: 20px;
-  padding-top: 183px; }
+  padding-top: 183px;
+  padding-bottom: 80px; }
 
 @media only screen and (min-width: 992px) {
   .content {
     padding-left: 350px;
     padding-right: 80px;
     padding-top: 183px; } }
+
+.content-home {
+  padding-left: 250px; }
+
+@media only screen and (min-width: 992px) {
+  .content-home {
+    padding-left: 350px; } }

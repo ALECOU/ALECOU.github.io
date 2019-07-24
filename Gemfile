@@ -6,3 +6,5 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'middleman-livereload'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
+gem "jquery-middleman"
+gem 'font-awesome-middleman'

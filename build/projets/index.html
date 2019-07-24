@@ -1,22 +1,37 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Middleman</title>
-    <link href="/stylesheets/application.css" rel="stylesheet" media="all" />
-    <script src="/javascripts/site.js"></script>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Use the title from a page's frontmatter if it has one -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Projets</title>
+  <link href="/stylesheets/application.css" rel="stylesheet" media="all" />
+  <script src="/javascripts/site.js"></script>
+
+  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+  <!-- Magnific Popup core JS file -->
+  <script src="/javascripts/magnific-popup/jquery.magnific-popup.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.image-link').magnificPopup({type:'image'});
+    });
+  </script>
+
+</head>
+<body>
+
+
+  <div id="page-container">
     <div class="menu">
   <ul class="list-unstyled">
     <li>
       <a class="menu-logo" href="/">
-        <img src="/images/logo.png" width="200" alt="Logo" />
+        <img src="/images/logo.png" width="300" alt="Logo" />
       </a>
     </li>
         <br>
@@ -44,49 +59,99 @@
   </ul>
 </div>
 
-    <div class="content">
-  <div class="card-container">
+    <div id="content-wrap">
+
+      <div class="content">
+  <div class="card-project-container">
     <div class="row">
 
       <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/pont01.jpg')">
-          <h2 class="card-content">Pont de Mogomo</h2>
-          <a class="card-link" href="/projets/a" ></a>
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/ouganda_kampala_pont/ouganda_kampala_pont_pers02.jpg')">
+          <h2 class="card-project-content">Pont de Kampala</h2>
+          <a class="card-project-link" href="/projets/ouganda_kampala_pont" ></a>
         </div>
       </div>
       <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/pont04.jpg')">
-          <h2 class="card-content">Pont de Mogomo</h2>
-          <a class="card-link" href="/projets/a" ></a>
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/burkina_faso_pont_mouhoun/burkina_faso_pont_mouhoun_tablier01.jpg')">
+          <h2 class="card-project-content">Pont sur le Mouhoun</h2>
+          <a class="card-project-link" href="/projets/burkina_faso_pont_mouhoun" ></a>
         </div>
       </div>
       <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/pont03.jpg')">
-          <h2 class="card-content">Pont de Mogomo</h2>
-          <a class="card-link" href="/projets/a" ></a>
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/ghana_pont/ghana_pont_pers.jpg')">
+          <h2 class="card-project-content">Ponts au Ghana</h2>
+          <a class="card-project-link" href="/projets/ghana_pont" ></a>
         </div>
       </div>
       <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/pont03.jpg')">
-          <h2 class="card-content">Pont de Mogomo</h2>
-          <a class="card-link" href="/projets/a" ></a>
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_arche_independance/guinee_equatoriale_arche_independance_OYALA_VUE_GENERALE.jpg')">
+          <h2 class="card-project-content">Arche de l'indépendance</h2>
+          <a class="card-project-link" href="/projets/guinee_equatoriale_arche_independance" ></a>
         </div>
       </div>
       <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/pont03.jpg')">
-          <h2 class="card-content">Pont de Mogomo</h2>
-          <a class="card-link" href="/projets/a" ></a>
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_oyala_tribune_presidentielle/guinee_equatoriale_oyala_tribune_presidentielle_livraison01.jpg')">
+          <h2 class="card-project-content">Tribune Présidentielle</h2>
+          <a class="card-project-link" href="/projets/guinee_equatoriale_oyala_tribune_presidentielle" ></a>
         </div>
       </div>
       <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/pont03.jpg')">
-          <h2 class="card-content">Pont de Mogomo</h2>
-          <a class="card-link" href="/projets/a" ></a>
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_pont_de_mongomo/guinee_equatoriale_pont_de_mongomo_livraion01.jpg')">
+          <h2 class="card-project-content">Pont de Mogomo</h2>
+          <a class="card-project-link" href="/projets/guinee_equatoriale_pont_de_mongomo" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_palais_des_peuples/guinee_equatoriale_palais_des_peuples_pers01.jpg')">
+          <h2 class="card-project-content">Palais des peuples</h2>
+          <a class="card-project-link" href="/projets/guinee_equatoriale_palais_des_peuples" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_pont_de_micoc_alum/guinee_equatoriale_pont_de_micoc_alum_travaux01.jpg')">
+          <h2 class="card-project-content">Pont de Micoc</h2>
+          <a class="card-project-link" href="/projets/guinee_equatoriale_pont_de_micoc_alum" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/kenya_nakuru_viaduc/kenya_nakuru_viaduc_pers.jpg')">
+          <h2 class="card-project-content">Viaduc de Nakuru</h2>
+          <a class="card-project-link" href="/projets/kenya_nakuru_viaduc" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/republique_congo_corniche/republique_congo_corniche_belveder.jpg')">
+          <h2 class="card-project-content">La corniche</h2>
+          <a class="card-project-link" href="/projets/republique_congo_corniche" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_passerelle/guinee_equatoriale_passerelle_beton_livraison.jpg')">
+          <h2 class="card-project-content">Passerelles autoroutières</h2>
+          <a class="card-project-link" href="/projets/guinee_equatoriale_passerelle" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/france_aubervilliers_PVC/france_aubervilliers_PVC_pers01.png')">
+          <h2 class="card-project-content">Passerelle PVC</h2>
+          <a class="card-project-link" href="/projets/france_aubervilliers_PVC" ></a>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-  </body>
+    </div>
+    
+<div class="footer">
+  <div class="footer-copyright">
+    © 2019 | Léopard Architecture
+  </div>
+</div>
+
+
+  </div>
+
+
+</body>
 </html>

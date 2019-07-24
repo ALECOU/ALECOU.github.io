@@ -7,40 +7,22 @@
 @media only screen and (min-width: 992px) {
   .menu {
     position: fixed;
-    margin: 50px 0 0 80px;
+    margin: 50px 0 0 25px;
     width: 200px;
   }
 }
 .menu-li{
   margin-top: 25px;
-}
-
-.menu-btn-white{
-  color: $white;
+  margin-left: 55px;
 }
 
 .menu-btn-black{
   color: $black;
 }
 
-.menu-btn-white:hover{
-  color: white;
-  text-decoration: none;
-}
-
 .menu-btn-black:hover{
   color: black;
   text-decoration: none;
-}
-
-.menu-btn-white h2{
-  font-size: 28px;
-  letter-spacing: 4px;
-  transition: all 0.3s ease;
-}
-
-.menu-btn-white:hover h2{
-  letter-spacing: 6px;
 }
 
 .menu-btn-black h2{

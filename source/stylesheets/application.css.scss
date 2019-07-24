@@ -5,9 +5,17 @@
 // Components
 @import "components/menu";
 @import "components/cards";
+@import "components/magnific-popup";
 
 // Page
 @import "page/projet";
 @import "page/agence";
+@import "page/contact";
+
+// Partials
+@import "partial/footer";
 
 @import "test";
+
+// External Library
+// @import "font-awesome";

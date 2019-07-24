@@ -1,0 +1,28 @@
+.footer {
+  background: rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 80px;    /* Footer height */
+}
+
