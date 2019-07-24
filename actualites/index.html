@@ -1,22 +1,37 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Middleman</title>
-    <link href="/stylesheets/application.css" rel="stylesheet" media="all" />
-    <script src="/javascripts/site.js"></script>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Use the title from a page's frontmatter if it has one -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Actualité</title>
+  <link href="/stylesheets/application.css" rel="stylesheet" media="all" />
+  <script src="/javascripts/site.js"></script>
+
+  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+  <!-- Magnific Popup core JS file -->
+  <script src="/javascripts/magnific-popup/jquery.magnific-popup.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.image-link').magnificPopup({type:'image'});
+    });
+  </script>
+
+</head>
+<body>
+
+
+  <div id="page-container">
     <div class="menu">
   <ul class="list-unstyled">
     <li>
       <a class="menu-logo" href="/">
-        <img src="/images/logo.png" width="200" alt="Logo" />
+        <img src="/images/logo.png" width="300" alt="Logo" />
       </a>
     </li>
         <br>
@@ -44,7 +59,47 @@
   </ul>
 </div>
 
-    <h1>Index Agence</h1>
+    <div id="content-wrap">
 
-  </body>
+      <div class="content">
+  <div class="card-project-container">
+    <div class="row">
+
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-actu">
+          <div class="card-actu-img" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/actu/actu01.jpg')">
+          </div>
+          <div class="card-actu-details text-justify">
+            <div class="card-actu-details-head">
+              <h2 class="card-actu-head">Lancement du site internet</h2>
+              <p class="card-actu-head-date">24/07/2019</p>
+            </div>
+            <p>Le site internet de Léopard Architecture est maintenant en ligne. Vous retrouverez les projets de l'agence et ses dernières actualités.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+
+      </div>
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+<div class="footer">
+  <div class="footer-copyright">
+    © 2019 | Léopard Architecture
+  </div>
+</div>
+
+
+  </div>
+
+
+</body>
 </html>
