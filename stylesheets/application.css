@@ -583,7 +583,7 @@ img.mfp-img {
 
 .head-agence-img {
   height: 400px;
-  width: 450px;
+  max-width: 450px;
   background-size: cover !important;
   background-position: center;
   margin: auto; }
@@ -632,8 +632,20 @@ img.mfp-img {
     width: 50%; } }
 
 .contact-form-content {
-  margin-right: 10%;
-  margin-left: 10%; }
+  margin-right: 5%;
+  margin-left: 5%; }
+
+@media only screen and (min-width: 800px) {
+  .contact-form-content {
+    margin-right: 10%;
+    margin-left: 10%; } }
+
+.font-size-form {
+  font-size: 12px; }
+
+@media only screen and (min-width: 800px) {
+  .font-size-form {
+    font-size: 16px; } }
 
 .margin-form {
   margin-top: 40px; }
