@@ -47,8 +47,26 @@
 }
 
 .contact-form-content{
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+
+@media only screen and (min-width: 800px) {
+  .contact-form-content{
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
+.font-size-form{
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 800px) {
+  .font-size-form{
+    font-size: 16px;
+  }
 }
 
 .margin-form{
