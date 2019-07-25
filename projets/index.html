@@ -11,6 +11,10 @@
   <link href="/stylesheets/application.css" rel="stylesheet" media="all" />
   <script src="/javascripts/site.js"></script>
 
+  <link rel="icon" href="/images/logo/L_noir_5_fond.ico">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
@@ -31,10 +35,10 @@
   <ul class="list-unstyled">
     <li>
       <a class="menu-logo" href="/">
-        <img src="/images/logo.png" width="300" alt="Logo" />
+        <img src="/images/logo/Logo_noir_5.png" width="300" alt="Logo noir 5" />
       </a>
     </li>
-        <br>
+    <br>
     <br>
     <li class="menu-li">
       <a class="menu-btn-black" href="/projets">
@@ -59,80 +63,118 @@
   </ul>
 </div>
 
+
+<div class="menu-mobile">
+  <div class="menu-mobile-top">
+    <a class="menu-mobile-logo" href="/">
+      <img src="/images/logo/Logo_noir_5.png" height="50" alt="Logo noir 5" />
+    </a>
+    <a href="javascript:void(0);" class="menu-mobile-icon" onclick="myFunction()">
+      <img src="/images/menu.png" height="40" alt="Menu" />
+    </a>
+  </div>
+
+
+  <div id="hidden" class="menu-mobile-bot">
+    <ul class="list-unstyled">
+      <li class="menu-mobile-li">
+        <a class="menu-mobile-btn-black" href="/projets">
+          <h2>PROJETS</h2>
+        </a>
+      </li>
+      <li class="menu-mobile-li">
+        <a class="menu-mobile-btn-black" href="/actualites">
+          <h2>ACTUALITES</h2>
+        </a>
+      </li>
+      <li class="menu-mobile-li">
+        <a class="menu-mobile-btn-black" href="/agence">
+          <h2>AGENCE</h2>
+        </a>
+      </li>
+      <li class="menu-mobile-li">
+        <a class="menu-mobile-btn-black" href="/contact">
+          <h2>CONTACT</h2>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
     <div id="content-wrap">
 
       <div class="content">
   <div class="card-project-container">
     <div class="row">
 
-      <div class="col-xs-12 col-md-6 col-lg-4">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
         <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/ouganda_kampala_pont/ouganda_kampala_pont_pers02.jpg')">
           <h2 class="card-project-content">Pont de Kampala</h2>
           <a class="card-project-link" href="/projets/ouganda_kampala_pont" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/burkina_faso_pont_mouhoun/burkina_faso_pont_mouhoun_tablier01.jpg')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/burkina_faso_pont_mouhoun/burkina_faso_pont_mouhoun_tablier01.jpg')">
           <h2 class="card-project-content">Pont sur le Mouhoun</h2>
           <a class="card-project-link" href="/projets/burkina_faso_pont_mouhoun" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/ghana_pont/ghana_pont_pers.jpg')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/ghana_pont/ghana_pont_pers.jpg')">
           <h2 class="card-project-content">Ponts au Ghana</h2>
           <a class="card-project-link" href="/projets/ghana_pont" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_arche_independance/guinee_equatoriale_arche_independance_OYALA_VUE_GENERALE.jpg')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/guinee_equatoriale_arche_independance/guinee_equatoriale_arche_independance_OYALA_VUE_GENERALE.jpg')">
           <h2 class="card-project-content">Arche de l'indépendance</h2>
           <a class="card-project-link" href="/projets/guinee_equatoriale_arche_independance" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_oyala_tribune_presidentielle/guinee_equatoriale_oyala_tribune_presidentielle_livraison01.jpg')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/guinee_equatoriale_oyala_tribune_presidentielle/guinee_equatoriale_oyala_tribune_presidentielle_livraison01.jpg')">
           <h2 class="card-project-content">Tribune Présidentielle</h2>
           <a class="card-project-link" href="/projets/guinee_equatoriale_oyala_tribune_presidentielle" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_pont_de_mongomo/guinee_equatoriale_pont_de_mongomo_livraion01.jpg')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/guinee_equatoriale_pont_de_mongomo/guinee_equatoriale_pont_de_mongomo_livraion01.jpg')">
           <h2 class="card-project-content">Pont de Mogomo</h2>
           <a class="card-project-link" href="/projets/guinee_equatoriale_pont_de_mongomo" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_palais_des_peuples/guinee_equatoriale_palais_des_peuples_pers01.jpg')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/guinee_equatoriale_palais_des_peuples/guinee_equatoriale_palais_des_peuples_pers01.jpg')">
           <h2 class="card-project-content">Palais des peuples</h2>
           <a class="card-project-link" href="/projets/guinee_equatoriale_palais_des_peuples" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_pont_de_micoc_alum/guinee_equatoriale_pont_de_micoc_alum_travaux01.jpg')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/guinee_equatoriale_pont_de_micoc_alum/guinee_equatoriale_pont_de_micoc_alum_travaux01.jpg')">
           <h2 class="card-project-content">Pont de Micoc</h2>
           <a class="card-project-link" href="/projets/guinee_equatoriale_pont_de_micoc_alum" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/kenya_nakuru_viaduc/kenya_nakuru_viaduc_pers.jpg')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/kenya_nakuru_viaduc/kenya_nakuru_viaduc_pers.jpg')">
           <h2 class="card-project-content">Viaduc de Nakuru</h2>
           <a class="card-project-link" href="/projets/kenya_nakuru_viaduc" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/republique_congo_corniche/republique_congo_corniche_belveder.jpg')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/republique_congo_corniche/republique_congo_corniche_belveder.jpg')">
           <h2 class="card-project-content">La corniche</h2>
           <a class="card-project-link" href="/projets/republique_congo_corniche" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/guinee_equatoriale_passerelle/guinee_equatoriale_passerelle_beton_livraison.jpg')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/guinee_equatoriale_passerelle/guinee_equatoriale_passerelle_beton_livraison.jpg')">
           <h2 class="card-project-content">Passerelles autoroutières</h2>
           <a class="card-project-link" href="/projets/guinee_equatoriale_passerelle" ></a>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-4">
-        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('images/projets/france_aubervilliers_PVC/france_aubervilliers_PVC_pers01.png')">
+      <div class="col-xs-12 col-lg-6 col-xl-4">
+        <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('/images/projets/france_aubervilliers_PVC/france_aubervilliers_PVC_pers01.png')">
           <h2 class="card-project-content">Passerelle PVC</h2>
           <a class="card-project-link" href="/projets/france_aubervilliers_PVC" ></a>
         </div>
