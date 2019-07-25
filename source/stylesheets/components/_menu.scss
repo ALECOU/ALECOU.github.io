@@ -45,16 +45,60 @@
 }
 
 
-  .menu-mobile {
-    position: fixed;
-    margin: 50px 0 0 25px;
-    width: 200px;
-  }
+.menu-mobile {
+  position: fixed;
+  width: 100%;
+  padding: 50px 25px 50px 25px;
+  background-color: white;
+  z-index: 5;
+
+}
 @media only screen and (min-width: 650px) {
   .menu-mobile {
     display: none;
-    position: fixed;
-    margin: 50px 0 0 25px;
-    width: 200px;
   }
+}
+
+.menu-mobile-icon{
+  color: black;
+}
+
+.menu-mobile-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-mobile-bot{
+  height: 100px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.menu-mobile-mobile-li{
+  margin-top: 25px;
+  margin-left: 55px;
+}
+
+.menu-mobile-btn-black{
+  color: $black;
+}
+
+.menu-mobile-btn-black:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.menu-mobile-btn-black h2{
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.menu-mobile-btn-black:hover h2{
+  letter-spacing: 4px;
+}
+
+#hidden{
+  display: none;
 }

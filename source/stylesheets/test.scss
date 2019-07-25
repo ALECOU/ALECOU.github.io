@@ -60,10 +60,10 @@ body {
 }
 
 @font-face {
-font-family: 'Calibri Light';
-font-style: normal;
-font-weight: normal;
-src: local('Calibri Light'), url('/css/fonts/calibril.woff') format('woff');
+  font-family: 'Calibri Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Calibri Light'), url('/css/fonts/calibril.woff') format('woff');
 }
 
 .content {
@@ -75,10 +75,10 @@ src: local('Calibri Light'), url('/css/fonts/calibril.woff') format('woff');
 
 @media only screen and (min-width: 650px) {
   .content {
-  padding-left: 350px;
-  padding-right: 20px;
-  padding-top: 183px;
-  padding-bottom: 80px;
+    padding-left: 350px;
+    padding-right: 20px;
+    padding-top: 183px;
+    padding-bottom: 80px;
   }
 }
 
@@ -90,6 +90,11 @@ src: local('Calibri Light'), url('/css/fonts/calibril.woff') format('woff');
   }
 }
 
-.content-home {
-  padding-left: 350px;
+
+
+@media only screen and (min-width: 650px) {
+  .content-home {
+    padding-left: 350px;
+  }
 }
+
