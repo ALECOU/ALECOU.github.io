@@ -41,17 +41,17 @@
 }
 
 h1 {
-  font-family: "Titillium Web";
+  font-family: "Calibri Light";
   font-size: 40px;
 }
 
 h2 {
-  font-family: "Titillium Web";
+  font-family: "Calibri Light";
   font-size: 24px;
 }
 
 h3 {
-  font-family: "Titillium Web";
+  font-family: "Calibri Light";
   font-size: 16px;
 }
 
@@ -67,10 +67,19 @@ src: local('Calibri Light'), url('/css/fonts/calibril.woff') format('woff');
 }
 
 .content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 183px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 650px) {
+  .content {
   padding-left: 350px;
   padding-right: 20px;
   padding-top: 183px;
   padding-bottom: 80px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -82,11 +91,5 @@ src: local('Calibri Light'), url('/css/fonts/calibril.woff') format('woff');
 }
 
 .content-home {
-  padding-left: 250px;
-}
-
-@media only screen and (min-width: 992px) {
-  .content-home {
-    padding-left: 350px;
-  }
+  padding-left: 350px;
 }

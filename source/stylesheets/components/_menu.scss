@@ -1,16 +1,25 @@
 .menu {
-  position: fixed;
-  margin: 50px 0 0 20px;
-  width: 200px;
+  display: none;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 650px) {
   .menu {
+    display: initial;
     position: fixed;
     margin: 50px 0 0 25px;
     width: 200px;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  .menu {
+    display: initial;
+    position: fixed;
+    margin: 50px 0 0 25px;
+    width: 200px;
+  }
+}
+
 .menu-li{
   margin-top: 25px;
   margin-left: 55px;
@@ -33,4 +42,19 @@
 
 .menu-btn-black:hover h2{
   letter-spacing: 6px;
+}
+
+
+  .menu-mobile {
+    position: fixed;
+    margin: 50px 0 0 25px;
+    width: 200px;
+  }
+@media only screen and (min-width: 650px) {
+  .menu-mobile {
+    display: none;
+    position: fixed;
+    margin: 50px 0 0 25px;
+    width: 200px;
+  }
 }
