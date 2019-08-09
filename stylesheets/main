@@ -1,3 +1,24 @@
+h1 {
+  font-family: "Calibri Light";
+  font-size: 40px; }
+
+h2 {
+  font-family: "Calibri Light";
+  font-size: 24px; }
+
+h3 {
+  font-family: "Calibri Light";
+  font-size: 16px; }
+
+body {
+  font-family: "Open sans"; }
+
+@font-face {
+  font-family: 'Calibri Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Calibri Light"), url("/css/fonts/calibril.woff") format("woff"); }
+
 .container {
   display: flex;
   text-align: center;
@@ -7,7 +28,6 @@
   color: white;
   text-align: center;
   height: 100vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
   align-items: center;
@@ -30,33 +50,11 @@
   color: white;
   text-align: center;
   height: 100vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
   background-position: center; }
-
-h1 {
-  font-family: "Calibri Light";
-  font-size: 40px; }
-
-h2 {
-  font-family: "Calibri Light";
-  font-size: 24px; }
-
-h3 {
-  font-family: "Calibri Light";
-  font-size: 16px; }
-
-body {
-  font-family: "Open sans"; }
-
-@font-face {
-  font-family: 'Calibri Light';
-  font-style: normal;
-  font-weight: normal;
-  src: local("Calibri Light"), url("/css/fonts/calibril.woff") format("woff"); }
 
 .content {
   padding-left: 20px;
